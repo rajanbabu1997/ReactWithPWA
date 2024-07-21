@@ -69,20 +69,20 @@ body {
 .product-price {
   font-size: 18px;
   font-weight: bold;
-  color: #337ab7;
+  color: #87c0f1;
 }
 .product-description {
   margin-top: 20px;
 }
-.buy-now-button {
-  background-color: #337ab7;
+.button {
+  background-color: #314a60;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-.buy-now-button:hover {
+.button:hover {
   background-color: #23527c;
 }
 

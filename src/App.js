@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='App'>
       <div hidden={Buttonvisible}>Welcome to my page</div>
-     <button onClick={onloadDate} hidden={Buttonvisible}>Click here to load Data</button>
+     <button className='button' onClick={onloadDate} hidden={Buttonvisible}>Click here to load Data</button>
      { Productvisible ? <GridView/> : <div></div> }
     </div>
     
